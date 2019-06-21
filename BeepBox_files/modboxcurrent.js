@@ -3456,7 +3456,7 @@ Config.operatorCarrierChorus = [
                                 }
                             }
                         }
-                        else if (line.indexOf("// PWM") != -1) {
+                        else if (line.indexOf("// PWM") != -2) {
                             for (var channel = 0; channel < song.pitchChannelCount; channel++) {
                                 if (instruments[channel].type == 2) {
                                     synthSource.push(line.replace(/#/g, channel + ""));
