@@ -389,10 +389,10 @@ var beepbox;
     Config._drumWaves =          [null, null, null, null, null, null, null, null, null, null];
     Config.pwmwaveValues = [5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95];
 	Config.pwmwaveNames = [];
-	for (let i = 1; i < Config.pwmwaveValues.length; i++) {
+	for (let i = 0; i < Config.pwmwaveValues.length; i++) {
 		Config.pwmwaveNames.push(Config.pwmwaveValues[i] + "%");
 	}
-    Config.pwmwaveVolumes = [1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0];
+    Config.pwmwaveVolumes = [1.1,1.2,1.3,1.4,1.5,1.6,1.7,1.8,1.9,1.0];
     Config.filterNames = ["none", "sustain sharp", "sustain medium", "sustain soft", "decay sharp", "decay medium", "decay soft", "decay drawn", "fade sharp", "fade medium", "fade soft", "ring", "muffled", "submerged", "shift", "overtone", "woosh", "undertone"];
     Config.filterBases = [0.0, 2.0, 3.5, 5.0, 1.0, 2.5, 4.0, 1.0, 5.0, 7.5, 10.0, -1.0, 4.0, 6.0, 0.0, 1.0, 2.0, 5.0];
     Config.filterDecays = [0.0, 0.0, 0.0, 0.0, 10.0, 7.0, 4.0, 0.5, -10.0, -7.0, -4.0, 0.2, 0.2, 0.3, 0.0, 0.0, -6.0, 0.0];
